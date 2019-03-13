@@ -16,17 +16,18 @@ paginate        = 6
   customCSS = []
   RSSLink = ""
 
-  twitterName = "faketryghost"
-  fbName = "fakeghost"
+  #twitterName = "faketryghost"
+  #fbName = "fakeghost"
   githubName = "JaySwansonCE"
+  linkedInName = "jayswansonce"
 
   logo = ""
   orgName = "EM"
   orgWebsite = "https://www.telematika.org"
   orgDescription = "Here is a description placeholder for your org"
 
-  author = "JS"
-  authorAvatar = "img/jayclimb.jpg"
+  author = "Jay Swanson"
+  authorAvatar = "static/headshot.jpg"
   authorLocation = "Logan, UT"
   authorWebsite = "https://jayswansonce.github.io/"
   authorDescription = "Climber, Engineer, Developer, Mycologist, Photographer"
