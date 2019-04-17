@@ -14,5 +14,5 @@ deploy:
   local-dir: public
   target-branch: master
   on:
-    branch: develop-2
+    branch: master
 
