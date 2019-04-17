@@ -2,7 +2,7 @@ import React from 'react'
 
 import { aboutMe, contact } from './text'
 
-import profilePic from '../../assets/images/Headshot.jpg'
+import profilePic from '../../assets/images/headshot.jpg'
 
 
 const About = () => (
