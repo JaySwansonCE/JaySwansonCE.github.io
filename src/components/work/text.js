@@ -56,6 +56,15 @@ const jobs = [
     ],
   },
   {
+    company: 'General Electric Healthcare Life Sciences',
+    location: 'Logan, UT',
+    dates: 'June 2015 - January 2016',
+    title: 'Media Biomanufacturing Production Technician',
+    items: [
+      'Maintained cleanroom procedures to produce media for cell growth while maintaining hydraulic pressure, conductivity, pH, osmolarity, etc.',
+    ],
+  },
+  {
     company: 'Utah State University',
     location: 'Logan, UT',
     dates: 'August 2014 - May 2015',
@@ -73,6 +82,15 @@ const jobs = [
     items: [
       'Collaborated with Senior Engineers to conceptualize, design and build a centrifugal water pump component.',
       'Optimized company resources with created, patented part (Patent: US 20160290408).',
+    ],
+  },
+  {
+    company: 'Naperville Auto Care \& Emissions',
+    location: 'Naperville, IL',
+    dates: 'September 2011 - December 2012',
+    title: 'Mechanic/Automotive Technician',
+    items: [
+      'Diagnosed, repaired, and maintained automobiles, motorcycles, and trucks',
     ],
   },
 ]
