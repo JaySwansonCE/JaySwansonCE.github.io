@@ -10,7 +10,7 @@ const Work = () => (
     </div>
     <div className="ten columns main-col">
       {jobs.map(job => (
-        <div className="row item" key={job.company}>
+        <div className="row item" key={job.dates}>
           <div className="twelve columns">
             <div className="row">
               <div className="eight columns">

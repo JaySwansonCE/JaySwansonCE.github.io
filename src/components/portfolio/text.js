@@ -1,7 +1,7 @@
 import shaftJacking from '../../assets/images/shaftJacking.jpg'
 import puppers from '../../assets/images/puppers.jpg'
 
-const projects = [
+const completeProjects = [
   {
     title: 'Patent US 20160290408A1',
     image: shaftJacking,
@@ -18,4 +18,4 @@ const projects = [
   },
 ]
 
-export default projects
+export default completeProjects;
