@@ -5,7 +5,27 @@ const jobs = [
     dates: 'September 2018 - Present',
     title: 'QA Software Engineer',
     items: [
-      'Conduct end product validation testing by creating and executing test cases using testing software',
+      'Conduct end-product validation testing by creating and executing test cases using workflow and testing software',
+      'Developed scripts to automate pulling software logs from devices, saving money in preventable hours of labor',
+      'Enhanced software testing efficiency by developing G Suite tools and VBA macros to prioritize projects',
+    ],
+  },
+  {
+    company: 'Cache County Sheriff\'s Office',
+    location: 'Nibley, UT',
+    dates: 'September 2019 - Present',
+    title: 'Sales Associate',
+    items: [
+      'Assist hundreds of customers per day in finding or selecting items, and providing recommendations based on previous, personal, outdoor experience',
+    ],
+  },
+  {
+    company: 'CampSaver',
+    location: 'Nibley, UT',
+    dates: 'September 2019 - Present',
+    title: 'Sales Associate',
+    items: [
+      'Assist hundreds of customers per day in finding or selecting items, and providing recommendations based on previous, personal, outdoor experience',
     ],
   },
   {
