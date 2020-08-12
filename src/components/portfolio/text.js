@@ -10,6 +10,13 @@ const completeProjects = [
       'https://patentimages.storage.googleapis.com/51/84/e4/5e147d498c68fa/US20160290408A1.pdf',
   },
   {
+    title: 'Mac OS Ghost',
+    image: shaftJacking,
+    text: 'Automatically forces your macbook to turn volume to max and dictate a dedicated phrase on a loop. It runs off a predetermined schedule. Uses bash scripting and crontab. Works on Mac OS X.',
+    link:
+      'https://github.com/swanjson/macOSGhost',
+  },
+  {
     title: 'Personal Website',
     image: puppers,
     text:

@@ -34,3 +34,10 @@ Deployment to github-pages is built in using `gh-pages`. Run `yarn deploy` to de
 #### License
 
 MIT
+
+
+
+
+### TODO
+
+- Change keys for job mapping
