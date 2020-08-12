@@ -12,11 +12,12 @@ const jobs = [
   },
   {
     company: 'Cache County Sheriff\'s Office',
-    location: 'Nibley, UT',
-    dates: 'September 2019 - Present',
-    title: 'Sales Associate',
+    location: 'Cache County, UT',
+    dates: 'May 2019 - Present',
+    title: 'Search and Rescue Unit Member',
     items: [
-      'Assist hundreds of customers per day in finding or selecting items, and providing recommendations based on previous, personal, outdoor experience',
+      'Train to proficiency in man-tracking and open area search, boat and drone operations, wilderness first aid, K-9’s, GPS and map skills, technical, winter, avalanche, ice, and swift water rescues',
+      'Provide professional search and rescue services to the citizens and visitors of Cache County',
     ],
   },
   {
