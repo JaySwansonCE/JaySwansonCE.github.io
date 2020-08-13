@@ -1,5 +1,4 @@
 import React from 'react'
-
 import text from './text'
 
 const Footer = () => (
@@ -9,7 +8,7 @@ const Footer = () => (
         <div className="title">{text.name}</div>
         {text.title} <br />
         {text.location} <br />
-        <a href={text.website}> {text.website} </a>
+        <a href={'https://'+text.website}> {text.website} </a>
       </div>
     </div>
   </div>
