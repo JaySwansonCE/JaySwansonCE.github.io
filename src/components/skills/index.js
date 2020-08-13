@@ -8,15 +8,13 @@ const Skills = () => (
         <span>Skills</span>
       </h1>
     </div>
-
     <div className="ten columns main-col">
       {intro}
-
       <div className="bars">
         <ul className="skills">
         {/* below will now sort lists by skill level instead of just by order entered */}
-        {skills.sort((a, b) => b.value - a.value).map(skill => (
-            <li key={skill.name}>
+          {skills.sort((a, b) => b.value - a.value).map(skill => (
+            <li key={skill.id}>
               <span
                 className="bar-expand"
                 style={{ width: skill.value + '%' }}
@@ -28,33 +26,71 @@ const Skills = () => (
       </div>
     </div>
 
-    {/* <div className="row skill"> */}
     <div className="two columns header-col">
-      <h1>
-        <span>Languages</span>
-      </h1>
-    </div>
+       <h1>
+         <span>Languages</span>
+       </h1>
+     </div>
 
-    <div className="ten columns main-col">
-      {intro2}
+     <div className="ten columns main-col">
+       <div>
+       {intro2}
+       </div>
+       <br>
+       </br>
 
-      <div className="bars">
-        <ul className="languages">
-        {/* below will now sort lists by skill level instead of just by order entered */}
-        {languages.sort((a, b) => b.value - a.value).map(language => (
-            <li key={language.name}>
-              {/* <span
+       <div className="bars">
+         <ul className="languages">
+         {/* below will now sort lists by skill level instead of just by order entered */}
+         {languages.sort((a, b) => b.value - a.value).map(language => (
+            <li key={language.id}>
+              <span
                 className="bar-expand"
                 style={{ width: language.value + '%' }}
-              /> */}
+              />
               <em>{language.name}</em>
             </li>
           ))}
         </ul>
       </div>
     </div>
-  </div>
+</div>
+
+
 
 )
+
+
+
+
+//     <div className='row skill'>
+//     {/* <div className="row skill"> */}
+//     <div className="two columns header-col">
+//       <h1>
+//         <span>Languages</span>
+//       </h1>
+//     </div>
+
+//     <div className="ten columns main-col">
+//       {intro2}
+
+//       <div className="bars">
+//         <ul className="languages">
+//         {/* below will now sort lists by skill level instead of just by order entered */}
+//         {languages.sort((a, b) => b.value - a.value).map(language => (
+//             <li key={language.name}>
+//               <span
+//                 className="bar-expand"
+//                 style={{ width: language.value + '%' }}
+//               />
+//               <em>{language.name}</em>
+//             </li>
+//           ))}
+//         </ul>
+//       </div>
+//     </div>
+//   </div>
+//   ]
+// )
 
 export default Skills
