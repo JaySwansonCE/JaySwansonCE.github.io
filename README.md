@@ -51,6 +51,9 @@ MIT
 - Printable Resume???
 	- make buttons that are linked to another github repo with updated resumes Indoor and Outdoor
 - figure out master vs deployTest. what the travis build does to the repo
+- update skills and languages
+- update small tab icon
+- Minify & other stuff?
 
 ### some running tips (sometimes have to update travis.yml and switch around node versions)
 
