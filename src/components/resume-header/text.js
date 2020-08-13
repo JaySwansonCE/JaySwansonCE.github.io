@@ -1,6 +1,6 @@
 const text = {
   name: 'Jay Swanson',
-  title: 'QA Software Engineer, Student',
+  title: 'Student, Quality Assurance Engineer, SAR Member, Sales Associate',
   location: 'Logan, UT',
   website: 'swanjson.github.io',
 }
