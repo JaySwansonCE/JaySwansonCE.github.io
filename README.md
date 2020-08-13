@@ -1,8 +1,8 @@
-# CURRENTLY IN PROGRESS OF USING JOEL DETWEILER'S WEBSITE TEMPLATE FOR MY OWN THE INFORMATION ON THIS SITE MAY NOT BE ACCURATE NOR TRUE YET
+# Personal Website of Jay Swanson
 
-changes
+This is the personal website of Jay Swanson. [Deployed here!](https://swanjson.github.io/).
 
-This is the personal website of Joel Detweiler. [See it in action here](https://jdd1260.github.io/).
+Originally forked from Joel Detweiler. [See his website here](https://jdd1260.github.io/).
 
 Started using Gatsby Starter - CeeVee | Design by Styleshout | Developed in React ⚛️ by Aman Mittal.
 
@@ -41,10 +41,17 @@ MIT
 ### TODO
 
 - Change keys for job mapping
-- Add proper image for macosghost
-- Automate headline
+- Automate headline for current positions (detect xxx-present)
+- map the divs for the headline
+- Menu button on mobile tap off
+- Make images squares and auto adjusting?
+- Education and Languages titles CSS should be a percentage instead of bumping to 2 lines.
+- Resume back button
+- Resume header for current positions (detect xxx-present)
+- Printable Resume???
+	- make buttons that are linked to another github repo with updated resumes Indoor and Outdoor
 
-### to run
+### some running tips (sometimes have to update travis.yml and switch around node versions)
 
 To run in local browser:
 need to install node
@@ -55,6 +62,16 @@ need to npm install the gatsby cli
 ```zsh
 npm install -g gatsby-cli #globally installs, need to use sudo on my work comp
 ```
+use nvm to change node versions
+```zsh
+nvm use 10 #changes the node version
+```
 
+need to npm install the gatsby cli
+```zsh
+yarn install
+yarn start
+ #globally installs, need to use sudo on my work comp
+```
 
 
