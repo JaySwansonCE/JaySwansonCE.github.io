@@ -41,3 +41,20 @@ MIT
 ### TODO
 
 - Change keys for job mapping
+- Add proper image for macosghost
+- Automate headline
+
+### to run
+
+To run in local browser:
+need to install node
+```bash
+brew install node
+```
+need to npm install the gatsby cli
+```zsh
+npm install -g gatsby-cli #globally installs, need to use sudo on my work comp
+```
+
+
+

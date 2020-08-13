@@ -14,7 +14,8 @@ const Skills = () => (
 
       <div className="bars">
         <ul className="skills">
-          {skills.map(skill => (
+        {/* below will now sort lists by skill level instead of just by order entered */}
+        {skills.sort((a, b) => b.value - a.value).map(skill => (
             <li key={skill.name}>
               <span
                 className="bar-expand"
@@ -27,7 +28,7 @@ const Skills = () => (
       </div>
     </div>
 
-
+    {/* <div className="row skill"> */}
     <div className="two columns header-col">
       <h1>
         <span>Languages</span>
@@ -39,12 +40,13 @@ const Skills = () => (
 
       <div className="bars">
         <ul className="languages">
-          {languages.map(language => (
+        {/* below will now sort lists by skill level instead of just by order entered */}
+        {languages.sort((a, b) => b.value - a.value).map(language => (
             <li key={language.name}>
-              <span
+              {/* <span
                 className="bar-expand"
-                style={{ width: langauge.value + '%' }}
-              />
+                style={{ width: language.value + '%' }}
+              /> */}
               <em>{language.name}</em>
             </li>
           ))}
@@ -52,6 +54,7 @@ const Skills = () => (
       </div>
     </div>
   </div>
+
 )
 
 export default Skills

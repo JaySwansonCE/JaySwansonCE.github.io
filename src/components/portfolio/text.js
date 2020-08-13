@@ -1,5 +1,6 @@
 import shaftJacking from '../../assets/images/shaftJacking.jpg'
 import puppers from '../../assets/images/puppers.jpg'
+import macosghost from '../../assets/images/macosghost.jpg'
 
 const completeProjects = [
   {
@@ -11,7 +12,7 @@ const completeProjects = [
   },
   {
     title: 'Mac OS Ghost',
-    image: shaftJacking,
+    image: macosghost,
     text: 'Automatically forces your macbook to turn volume to max and dictate a dedicated phrase on a loop. It runs off a predetermined schedule. Uses bash scripting and crontab. Works on Mac OS X.',
     link:
       'https://github.com/swanjson/macOSGhost',
