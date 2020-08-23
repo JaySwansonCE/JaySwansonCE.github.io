@@ -41,19 +41,24 @@ MIT
 ### TODO
 
 - Change keys for job mapping
-- Automate headline for current positions (detect xxx-present)
-- map the divs for the headline
+	- find way to use the 'random unique 
+
 - Menu button on mobile tap off
 - Make images squares and auto adjusting?
-- Education and Languages titles CSS should be a percentage instead of bumping to 2 lines.
+
 - Resume back button
 - Resume header for current positions (detect xxx-present)
 - Printable Resume???
 	- make buttons that are linked to another github repo with updated resumes Indoor and Outdoor
 - figure out master vs deployTest. what the travis build does to the repo
 - update skills and languages
-- update small tab icon
 - Minify & other stuff?
+
+- mobile version
+	- (make social icons larger)
+	- tap off the drop down button
+	- Add image to about me
+- view resume button moved
 
 ### some running tips (sometimes have to update travis.yml and switch around node versions)
 

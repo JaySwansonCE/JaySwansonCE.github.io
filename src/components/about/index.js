@@ -3,6 +3,7 @@ import React from 'react'
 import { aboutMe, contact } from './text'
 
 import profilePic from '../../assets/images/headshot.jpg'
+import ScrollDown2 from '../ScrollDown2'
 
 
 const About = () => (
@@ -24,16 +25,23 @@ const About = () => (
             </p>
           </div>
           <div className="columns download">
-            <p>
+            {/* <p>
               <a href="/resume" className="button">
                 View Resume
               </a>
-            </p>
+            </p> */}
+          </div>
+          <div className="columns download">
+          <a href="/resume" className="button">
+                View Resume
+              </a>
           </div>
         </div>
       </div>
+      <ScrollDown2 />
     </div>
   </section>
+  
 )
 
 export default About

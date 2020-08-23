@@ -17,7 +17,6 @@ schools.find(school => {
 //CONCATS SCHOOL AND JOBS ARRAYS
 var bannerTitles = [...bannerSchools, ...bannerJobs];
 
-
 const bannerTitle = "Jay Swanson"
 
 module.exports = {bannerTitles, bannerTitle};

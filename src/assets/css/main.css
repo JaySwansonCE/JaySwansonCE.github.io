@@ -63,6 +63,14 @@ ul.bannerList {
   margin-top: 0;
 }
 
+div.resumeHeaderTitles {
+  padding-top: 0;
+  margin-top: 0;
+  display: inline-flexbox;
+  font-size: smaller;
+  
+}
+
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
    display: block;
@@ -840,6 +848,7 @@ body {
   background: #0f0f0f;
 }
 
+
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -940,6 +949,29 @@ header .scrolldown a {
   transition: all 0.3s ease-in-out;
 }
 header .scrolldown a:hover {
+  color: #11abb0;
+}
+
+.scrolldown2 a {
+  position: relative;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -29px;
+  color: #fff;
+  display: block;
+  height: 42px;
+  width: 42px;
+  font-size: 42px;
+  line-height: 42px;
+  color: #fff;
+  border-radius: 100%;
+
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.scrolldown2 a:hover {
   color: #11abb0;
 }
 
@@ -1056,6 +1088,7 @@ ul#nav li.current a {
 #about .download {
   width: 58.33333%;
   padding-top: 6px;
+  text-align-last: center;
 }
 #about .main-col {
   padding-right: 5%;
@@ -1076,6 +1109,20 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
+
+.resumeBackButtonBackground {
+  background: #fff;
+  margin: 0;
+}
+
+.resumeDiv{
+  background: #fff;
+}
+
+.resumeBackButton {
+  background: #fff;
+  display: inline-flexbox;
+}
 
 #resume {
   background: #fff;
@@ -1102,6 +1149,7 @@ ul#nav li.current a {
   border-bottom: 3px solid #11abb0;
   padding-bottom: 6px;
   display: inline-flex;
+  /* display: inline-flex; */
 }
 #resume h3 {
   font: 25px/30px "opensans-bold", sans-serif;
@@ -1223,7 +1271,7 @@ ul#nav li.current a {
   margin-bottom: 36px;
 }
 .portfolio-item .item-wrap {
-  background: #fff;
+  /* background: #fff; */
   overflow: hidden;
   position: relative;
 
@@ -2011,7 +2059,7 @@ footer .social li:first-child {
 
   /* scrolldown link */
  header .scrolldown { display: none; }
-
+ .scrolldown2 { display: none; }
 
  /* About Section
  -------------------------------------------------------------------- */
