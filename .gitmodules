@@ -1,0 +1,3 @@
+[submodule "src/assets/resumes"]
+	path = src/assets/resumes
+	url = https://github.com/swanjson/resumes.git
