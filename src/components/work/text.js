@@ -3,7 +3,7 @@ const jobs = [
     company: 'ICON Health and Fitness',
     location: 'Logan, UT',
     dates: 'September 2018 - Present',
-    title: 'QA Software Engineer',
+    title: 'Software Quality Assurance Engineer',
     items: [
       'Conduct end-product validation testing by creating and executing test cases using workflow and testing software',
       'Developed scripts to automate pulling software logs from devices, saving money in preventable hours of labor',

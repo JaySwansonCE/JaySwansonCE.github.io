@@ -54,6 +54,15 @@ time, mark, audio, video {
    background: transparent;
 }
 
+/* ADDED FOR GAPPING IN THE BANNER SECTIONS */
+ul.bannerList {
+  margin: 0;
+  /* vertical-align: baseline; */
+  line-height: 1.5em;
+  padding-top: 0;
+  margin-top: 0;
+}
+
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
    display: block;
@@ -1092,6 +1101,7 @@ ul#nav li.current a {
 #resume h1 span {
   border-bottom: 3px solid #11abb0;
   padding-bottom: 6px;
+  display: inline-flex;
 }
 #resume h3 {
   font: 25px/30px "opensans-bold", sans-serif;

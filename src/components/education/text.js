@@ -2,8 +2,8 @@ const schools = [
   {
     name: 'Utah State University',
     location: 'Logan, UT',
-    degree: 'Bachelor of Science, Computer Engineering',
-    date: 'Expected May 2020',
+    degree: 'B.S. Computer Engineering',
+    date: 'Expected May 2021',
     items: [
       'Minor: Mathematics',
       'Research Focus: 5G Heterogeneous Networking'
