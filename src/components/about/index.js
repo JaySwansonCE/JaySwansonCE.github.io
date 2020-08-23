@@ -24,20 +24,13 @@ const About = () => (
               <div>{contact.email}</div>
             </p>
           </div>
-          <div className="columns download">
-            {/* <p>
-              <a href="/resume" className="button">
-                View Resume
-              </a>
-            </p> */}
+              <div className="columns download">
+                <a href="/resume" className="button">
+                  View Resume
+                </a>
+              </div>
+            </div>
           </div>
-          <div className="columns download">
-          <a href="/resume" className="button">
-                View Resume
-              </a>
-          </div>
-        </div>
-      </div>
       <ScrollDown2 />
     </div>
   </section>
