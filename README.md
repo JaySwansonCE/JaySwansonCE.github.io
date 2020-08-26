@@ -52,6 +52,7 @@ MIT
 - figure out master vs deployTest. what the travis build does to the repo
 - update skills and languages
 - Minify & other stuff?
+- New line in text `doesn&#39;t`??
 
 - mobile version
 	- (make social icons larger)

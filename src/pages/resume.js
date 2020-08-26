@@ -9,6 +9,14 @@ const IndexPage = () => (
   <div className="resumeDiv">
     <ResumeHeader />
     <p className="resumeBackButtonBackground">
+      <a href="/indoorResume" className="resumeBackButton">
+      Printable INDOOR Resume</a>
+    </p>
+    <p className="resumeBackButtonBackground">
+      <a href="/outdoorResume" className="resumeBackButton">
+      Printable OUTDOOR Resume</a>
+    </p>
+    <p className="resumeBackButtonBackground">
       <a href="/.." className="resumeBackButton">
       BACK </a>
     </p>
