@@ -33,6 +33,7 @@ e. Others
       HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
 /* ------------------------------------------------------------------ */
 
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -70,6 +71,13 @@ div.resumeHeaderTitles {
   font-size: smaller;
   
 }
+
+iframe.pdfView{
+  border: none;
+  /* flex-flow: row wrap; */
+  min-block-size: -webkit-fill-available;
+}
+/* autoprefixer: off */
 
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
@@ -1113,6 +1121,7 @@ ul#nav li.current a {
 .resumeBackButtonBackground {
   background: #fff;
   margin: 0;
+  text-align: center;
 }
 
 .resumeDiv{
