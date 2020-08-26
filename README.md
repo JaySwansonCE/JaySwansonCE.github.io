@@ -46,8 +46,7 @@ MIT
 - Menu button on mobile tap off
 - Make images squares and auto adjusting?
 
-- Resume back button
-- Resume header for current positions (detect xxx-present)
+- Resume back button (make better)
 - Printable Resume???
 	- make buttons that are linked to another github repo with updated resumes Indoor and Outdoor
 - figure out master vs deployTest. what the travis build does to the repo

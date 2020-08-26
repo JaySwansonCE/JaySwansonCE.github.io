@@ -102,7 +102,7 @@ export const languages = [
 ]
 
 export const intro =
-  'I started programming in C++ and moved to python and lots of MATLAB for my computer vision education. I have been exploring more python packages like pandas and scikit-learn for data reasons. I use JavaScript with React to build websites to display my projects.'
+  'I started programming in C++ and moved to python and lots of MATLAB for my computer vision education. I have been exploring more python packages like pandas and scikit-learn for data reasons. I use JavaScript with React to build websites to display my projects.\n The following ratings are based on an empty bar (beginner) to full bar (master) scale:'
 
 export const intro2 =
   ''
