@@ -7,8 +7,8 @@ cache:
 git:
   submodules: false
 before_install:
-- openssl aes-256-cbc -K $encrypted_db2095f63ba3_key -iv $encrypted_db2095f63ba3_iv
-  -in deploy_rsa.enc -out deploy_rsa -d
+# - openssl aes-256-cbc -K $encrypted_db2095f63ba3_key -iv $encrypted_db2095f63ba3_iv
+#   -in deploy_rsa.enc -out deploy_rsa -d
 - sudo apt-get update > /dev/null
 - mkdir -p ~/.ssh
 - eval `ssh-agent -s`
