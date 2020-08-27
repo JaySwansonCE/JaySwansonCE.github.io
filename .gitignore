@@ -3,3 +3,6 @@ node_modules
 .cache/
 yarn-error.log
 public/
+id_travis_rsa
+submodules
+submodules.pub

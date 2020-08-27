@@ -15,7 +15,6 @@ deploy:
   keep-history: true
   local-dir: public
   target-branch: master
-  committer_from_gh: true
   on:
     branch: deployTest
 
