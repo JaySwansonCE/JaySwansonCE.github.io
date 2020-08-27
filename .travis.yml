@@ -1,45 +1,33 @@
 language: node_js
 node_js:
-  - 10
+- 10
 cache:
   directories:
   - node_modules
 git:
-  # Tell Travis not to try to load submodules
-  # We'll do that further down
   submodules: false
- 
 before_install:
-  # This is just updating all the things
-  - sudo apt-get update > /dev/null
-  # The .ssh directory probably exists, but why take the risk?
-  - mkdir -p ~/.ssh
-  # This command clears all SSH keys from the current session,
-  # preventing the GitHub repository deploy key from being used
-  - eval `ssh-agent -s`
-  - ssh-add -D
-  # This adds a directive to the SSH config which specifies our
-  # deploy user's key is used for authenticating with all connections
-  # to github.com
-  - echo -e "Host github.com\n  User my-machine-user\n  IdentityFile ${TRAVIS_BUILD_DIR}/ci/ssh/insecure-key\n" >> ~/.ssh/config
-  # SSH keys will be unusable unless they are unreadable by
-  # anyone other than the owner
-  - chmod 600 ${TRAVIS_BUILD_DIR}/ci/ssh/*
-  # We need to add the SSH signature for GitHub to the SSH known_hosts
-  - cp ${TRAVIS_BUILD_DIR}/ci/ssh/known_hosts ~/.ssh/known_hosts
-  # Now update the submodules we're using
-  - git submodule update --init --recursive
+- openssl aes-256-cbc -K $encrypted_db2095f63ba3_key -iv $encrypted_db2095f63ba3_iv
+  -in deploy_rsa.enc -out deploy_rsa -d
+- sudo apt-get update > /dev/null
+- mkdir -p ~/.ssh
+- eval `ssh-agent -s`
+- ssh-add -D
+- echo -e "Host github.com\n  User my-machine-user\n  IdentityFile ${TRAVIS_BUILD_DIR}/ci/ssh/insecure-key\n"
+  >> ~/.ssh/config
+- chmod 600 ${TRAVIS_BUILD_DIR}/ci/ssh/*
+- cp ${TRAVIS_BUILD_DIR}/ci/ssh/known_hosts ~/.ssh/known_hosts
+- git submodule update --init --recursive
 install:
-  - yarn install
+- yarn install
 script:
-  - yarn build
+- yarn build
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in the travis settings page of your repository, as a secure variable
+  github-token: "$GITHUB_TOKEN"
   keep-history: true
   local-dir: public
   target-branch: master
   on:
     branch: deployTest
-
