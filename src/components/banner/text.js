@@ -15,6 +15,7 @@ schools.find(school => {
     bannerSchools.push({text: school.degree + " Student at " + school.name})
 })
 //CONCATS SCHOOL AND JOBS ARRAYS
+//spread operator "..."
 var bannerTitles = [...bannerSchools, ...bannerJobs];
 
 const bannerTitle = "Jay Swanson"
