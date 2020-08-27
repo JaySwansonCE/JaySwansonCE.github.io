@@ -3,7 +3,7 @@
 setup_git() {
   # git config --global user.name ${TRAVIS_LOGIN}
   # git config --global user.name ${TRAVIS_PASS}
-  https://${TRAVIS_LOGIN}:${TRAVIS_PASS}@github.com/${TRAVIS_LOGIN}/resumes.git
+  https://${TRAVIS_LOGIN}:${TRAVIS_PASS}@github.com/swanjson/resumes.git
   git submodule add https://github.com/swanjson/resumes
 }
 
