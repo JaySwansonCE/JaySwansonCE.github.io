@@ -4,6 +4,8 @@ node_js:
 cache:
   directories:
   - node_modules
+before-install:
+  - git submodule update --init --recursive
 install:
   - yarn install
 script:
