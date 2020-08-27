@@ -9,6 +9,8 @@ install:
   - yarn install
 script:
   - yarn build
+git:
+  submodules: false
 before_install:
   - ./privRepoPush.sh
 deploy:
