@@ -12,6 +12,8 @@ script:
 git:
   submodules: false
 before_install:
+  - sudo chown -R travis ./privRepoPush.sh
+  - sudo chmod +x ./privRepoPush.sh
   - ./privRepoPush.sh
 deploy:
   provider: pages
