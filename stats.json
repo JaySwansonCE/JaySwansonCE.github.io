@@ -1,12 +1,20 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-e66d56c9e5628f836b00.js",
-      "component---src-pages-index-js-e66d56c9e5628f836b00.js.map"
+      "component---src-pages-index-js-23791aee1693c3531669.js",
+      "component---src-pages-index-js-23791aee1693c3531669.js.map"
+    ],
+    "path---indoor-resume": [
+      "path---indoor-resume-a0e39f21c11f6a62c5ab.js",
+      "path---indoor-resume-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-pages-outdoor-resume-js": [
+      "component---src-pages-outdoor-resume-js-7bbff79b0d3fb8deb900.js",
+      "component---src-pages-outdoor-resume-js-7bbff79b0d3fb8deb900.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-0319fd8b47db158875aa.js",
@@ -17,17 +25,21 @@
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-resume-js": [
-      "component---src-pages-resume-js-4782fa46bbd5c08d54fb.js",
-      "component---src-pages-resume-js-4782fa46bbd5c08d54fb.js.map"
+      "component---src-pages-resume-js-45d7b27d5fe8defce25a.js",
+      "component---src-pages-resume-js-45d7b27d5fe8defce25a.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
+    "component---src-pages-indoor-resume-js": [
+      "component---src-pages-indoor-resume-js-3d4b4da5449fea29637b.js",
+      "component---src-pages-indoor-resume-js-3d4b4da5449fea29637b.js.map"
+    ],
     "commons": [
-      "commons-012a235b47d52d6d1b22.js",
+      "commons-a97bff9d1c190a18529b.js",
       "build-js-styles.css",
-      "commons-012a235b47d52d6d1b22.js.map",
+      "commons-a97bff9d1c190a18529b.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -39,14 +51,16 @@
       "path---resume-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-1027afe0c1acbbc55193.js",
-      "build-js-styles.css",
-      "app-1027afe0c1acbbc55193.js.map",
-      "build-js-styles.css.map"
+      "app-9f75342305fbcc795618.js",
+      "app-9f75342305fbcc795618.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---outdoor-resume": [
+      "path---outdoor-resume-a0e39f21c11f6a62c5ab.js",
+      "path---outdoor-resume-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }
