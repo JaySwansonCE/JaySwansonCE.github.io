@@ -3,7 +3,7 @@
 setup_git() {
   # git config --global user.name ${TRAVIS_LOGIN}
   # git config --global user.name ${TRAVIS_PASS}
-  cd ./assets
+  cd /assets
   git clone https://github.com/swanjson/resumes
   # https://${TRAVIS_LOGIN}:${TRAVIS_PASS}@github.com/swanjson/resumes.git
   # git submodule add https://github.com/swanjson/resumes
